@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding+"UTF-8"?>
+<manifest>
+  
+  <!--Trees-->
+  <project path="device/redmi/begonia" name="begonia-dev/android_device_redmi_begonia" remote="github" revision="13.0"/>
+  <project path="vendor/redmi/begonia" name="begonia-dev/vendor_redmi_begonia" remote="github" revision="13.0"/>
+  <project path="kernel/xiaomi/mt6785" name="begonia-dev/android_kernel_xiaomi_mt6785" remote="github" revision="13.0"/>
+  <project path="vendor/redmi/begonia-ims" name="begonia-dev/vendor_redmi_begonia-ims" remote="github" revision="13.0"/>
+  <project path="device/xiaomi/sm8250-common" name="xiaomi-sm8250-devs/android_device_xiaomi_sm8250-common" remote="github" revision="lineage-20"/>
+  <project path="vendor/xiaomi/sm8250-common" name="xiaomi-sm8250-devs/proprietary_vendor_xiaomi_sm8250-common" remote="github" revision="lineage-20"/>
+  
+  <!--Dependencies-->
+  <project path="device/mediatek/sepolicy" name="begonia-dev/android_device_mediatek_sepolicy" remote="github" revision="13.0"/>
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="github" revision="lineage-20"/>
+  <project path="vendor/redmi/begonia-ims" name="begonia-dev/android_vendor_redmi_begonia-ims" remote="github" revision="13.0"/>
+
+</manifest>
